@@ -11,8 +11,12 @@
 	<script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
 </head>
 <body>
-	<header><img src="/img/logo.jpg" alt="Meadowlark Travel Logo"></header>
-	{{{body}}}
+	<div class="container">
+		<header><h1>Meadowlark Travel</h1></header>
+		<img src="/img/logo.jpg" alt="Meadowlark Travel Logo">
+		{{{body}}}
+		<footer>&copy; {{copyrightYear}} Meadowlark Travel</footer>
+	</div>
 
 	{{#if showTests}}
 		<div id="mocha"></div>
