@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Meadowlark Travel</title>
+	{{{_sections.head}}}
 	<!-- include the test framework in all page -->
 	{{#if showTests}}
 		<link rel="stylesheet" href="/vendor/mocha.css">
@@ -15,6 +16,8 @@
 		<header><h1>Meadowlark Travel</h1></header>
 		<img src="/img/logo.jpg" alt="Meadowlark Travel Logo">
 		{{{body}}}
+		<script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
+		{{{_sections.jquery}}}
 		<footer>&copy; {{copyrightYear}} Meadowlark Travel</footer>
 	</div>
 
